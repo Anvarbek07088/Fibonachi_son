@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fibonachi Ketma Ketlik</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2>Fibonachi Ketma Ketlik</h2>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="input-group">
+          <label for="input-a">Birinchi son (a):</label>
+          <input type="number" id="input-a" />
+        </div>
+        <div class="input-group">
+          <label for="input-b">Ikkinchi son (b):</label>
+          <input type="number" id="input-b" />
+        </div>
+        <div class="input-group">
+          <label for="input-n">Ketma ketlik uzunligi (n):</label>
+          <input type="number" id="input-n" />
+        </div>
+        <button id="generate-btn">Ketma ketlikni hosil qilish</button>
+        <button class="generate-btn" onclick="clearFunc()">Tozalash</button>
+        <div class="fibonacci-container" id="fibonacci-container">
+          <!-- Fibonacci sonlarini ko'rsatish uchun yaratilgan div -->
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <h2>IT Dasturlash</h2>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
